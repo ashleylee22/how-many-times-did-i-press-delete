@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Erase Text Effect</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+
+<div class = "dates">How many times did I press the "delete" key on Sunday 3/2?</div>
+
+
+<div class="category4">
+    <div class="essay32">Essay   :</div>
+    <div class="google32">Google Search   :</div>
+    <div class="text32">Texts   :</div>
+    <div class="email32">Emails   :</div>
+    <div class="note32">Personal Notes   :</div>
+    <div class="assignment32">Assignments   :</div>
+</div>
+
+    <div class="essay32_erasetext">"As a"</div>
+    <div class="google32_erasetext" >"Free QR cod"</div>
+    <div class="text32_erasetext" >"I can go during sp"</div>
+    <div class="email32_erasetext" >(0 times)</div>
+    <div class="note32_erasetext" >(0 times)</div>
+    <div class="assignment32_erasetext" >"i wonder if there are more historical examples of this"</div>
+ 
+
+</body>
+
+    <script src="script.js"></script> <!-- Link to external JS -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'mde3zjd',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+</html>

@@ -1,0 +1,573 @@
+body {
+    font-family: "gowun-batang", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    height: 100vh;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: rgb(31, 52, 120);
+}
+.title{
+    font-size: 40px;
+    padding: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.essay227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+}
+.google227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 320px;
+    overflow: hidden;
+}
+.text227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 390px;
+    overflow: hidden;
+}
+.email227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 460px;
+    overflow: hidden;
+}
+.note227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 530px;
+    overflow: hidden;
+}
+.assignment227_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.category{
+    position: absolute;
+    left: 120px;
+    top: 380px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay{
+    position: absolute;
+    left: 120px;
+    top: 185px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.google227{
+    position: absolute;
+    left: 120px;
+    top: 305px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.dates{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    font-weight: bold;
+}
+#thursday {
+    position: absolute;
+    white-space: nowrap;
+    left: 200px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+#friday {
+    position: absolute;
+    white-space: nowrap;
+    left: 400px;
+    top: 400px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+#saturday {
+    position: absolute;
+    white-space: nowrap;
+    left: 600px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#sunday {
+    position: absolute;
+    white-space: nowrap;
+    left: 800px;
+    top: 400px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#monday {
+    position: absolute;
+    white-space: nowrap;
+    left: 1000px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#tuesday {
+    position: absolute;
+    white-space: nowrap;
+    left: 1200px;
+    top: 400px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#wednesday {
+    position: absolute;
+    white-space: nowrap;
+    left: 1400px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#thursday:hover {
+    transform: scale(1.2);
+}
+#friday:hover {
+    transform: scale(1.2);
+}
+#saturday:hover {
+    transform: scale(1.2);
+}
+#sunday:hover {
+    transform: scale(1.2);
+}
+#monday:hover {
+    transform: scale(1.2);
+}
+#tuesday:hover {
+    transform: scale(1.2);
+}
+#wednesday:hover {
+    transform: scale(1.2);
+}
+
+/* friday 2/28 */
+.category2{
+    position: absolute;
+    left: 120px;
+    top: 450px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.google228{
+    position: absolute;
+    left: 120px;
+    top: 375px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.numberoftimes{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    line-height: 7vh;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.essay228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    overflow: hidden;
+}
+.google228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 393px;
+    overflow: hidden;
+}
+.text228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 465px;
+    overflow: hidden;
+}
+.email228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 535px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.note228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 605px;
+    overflow: hidden;
+}
+.assignment228_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 675px;
+    overflow: hidden;
+}
+
+/* saturday */ 
+#saturday {
+    position: absolute;
+    white-space: nowrap;
+    left: 600px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+.category3{
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 205px;
+    overflow: hidden;
+}
+.google31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 275px;
+    overflow: hidden;
+}
+.text31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 345px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.email31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 415px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.note31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 485px;
+    overflow: hidden;
+}
+.assignment31_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 555px;
+    overflow: hidden;
+}
+
+/* Sunday */ 
+#sunday{
+    position: absolute;
+    white-space: nowrap;
+    left: 800px;
+    top: 400px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+.category4{
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 205px;
+    overflow: hidden;
+}
+.google32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 275px;
+    overflow: hidden;
+}
+.text32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 345px;
+    overflow: hidden;
+}
+.email32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 415px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.note32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 485px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.assignment32_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 555px;
+    overflow: hidden;
+}
+
+/* monday */
+#monday{
+    position: absolute;
+    white-space: nowrap;
+    left: 1000px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+
+.category5{
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 205px;
+    overflow: hidden;
+}
+.google33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 275px;
+    overflow: hidden;
+}
+.text33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 345px;
+    overflow: hidden;
+}
+.email33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 415px;
+    overflow: hidden;
+}
+.note33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 485px;
+    overflow: hidden;
+}
+.assignment33_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 555px;
+    overflow: hidden;
+}
+
+/* tuesday */
+#tuesday{
+    position: absolute;
+    white-space: nowrap;
+    left: 1200px;
+    top: 400px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+
+.category6{
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 205px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.google34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 275px;
+    overflow: hidden;
+}
+.text34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 345px;
+    overflow: hidden;
+}
+.email34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 415px;
+    overflow: hidden;
+    color:rgb(255, 0, 212);
+    font-weight: bold;
+}
+.note34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 485px;
+    overflow: hidden;
+}
+.assignment34_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 555px;
+    overflow: hidden;
+}
+/* wednesday */
+#wednesday{
+    position: absolute;
+    white-space: nowrap;
+    left: 1400px;
+    top: 200px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(31, 52, 120);
+}
+
+.category7{
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.essay35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 205px;
+    overflow: hidden;
+    
+}
+.google35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 275px;
+    overflow: hidden;
+}
+.text35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 345px;
+    overflow: hidden;
+}
+.email35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 415px;
+    overflow: hidden;
+    
+}
+.note35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 485px;
+    overflow: hidden;
+}
+.assignment35_erasetext{
+    white-space: nowrap;
+    position: absolute;
+    left: 400px;
+    top: 555px;
+    overflow: hidden;
+}

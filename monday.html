@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Erase Text Effect</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+
+<div class = "dates">How many times did I press the "delete" key on Monday 3/3?</div>
+
+
+<div class="category5">
+    <div class="essay33">Essay   :</div>
+    <div class="google33">Google Search   :</div>
+    <div class="text33">Texts   :</div>
+    <div class="email33">Emails   :</div>
+    <div class="note33">Personal Notes   :</div>
+    <div class="assignment33">Assignments   :</div>
+</div>
+
+    <div class="essay33_erasetext">"Double"</div>
+    <div class="google33_erasetext" >"Conceptual art in"</div>
+    <div class="text33_erasetext" >"YES PL"</div>
+    <div class="email33_erasetext" >"Checking in"</div>
+    <div class="note33_erasetext" >"What is your current market value of investments?"</div>
+    <div class="assignment33_erasetext" >"Modern colonialism can have a range of definitions"</div>
+ 
+
+</body>
+
+    <script src="script.js"></script> <!-- Link to external JS -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'mde3zjd',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+</html>
